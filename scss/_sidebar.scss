@@ -1,0 +1,221 @@
+.sidebar {
+	float: left;
+	text-align: left;
+	padding: 50px 0 $gutter 0;
+	width: 18.75%;
+	h3,
+	.menu-item-has-children,
+	#menu-della-casa-menu,
+	#menu-nv-wines-menu {//Inherits h3 styles from fonts.scss as well
+		border-top: 1px solid $gray;
+		margin: 0 0 0 0;
+		padding: 10px 0;
+		a:hover {
+			color: $gold;
+			text-decoration: none;
+		}
+	}
+	i {
+		font-style: italic;
+	}
+	.textwidget {
+		color: $text;
+		p {
+			line-height: 1.5em;
+			b {
+				display: inline-block;
+				font-weight: 800;
+				padding-top: 20px;
+			}
+		}
+	}
+	.box {
+		overflow: hidden;
+		padding-top: 5px; 
+		&.club {border-top: 1px solid $gray;}
+		a {
+			@include decor(normal);
+			background: url('../img/bg/ricepaper2.png');
+			border: 2px solid $gold;
+			clear: left;
+			display: block;
+			font-size: 20px;
+			float: left;
+			margin: 0 0 ($gutter/2) 0;
+			padding: 10px;
+			text-align: center;
+			text-transform: lowercase;
+			width: 140px;
+			&.square {
+				height: 140px;
+				padding-top: 40px;
+			}
+			em {
+				line-height: 1em;
+				&.first {font-size: 37px;}
+				&.second {font-size: 34px;}
+				&.third {font-size: 30px;}
+			}
+			span {
+				@include crimson(normal);
+				font-size: 24px;
+				display: block;
+				font-style: italic;
+				margin-bottom: 5px;
+				position: relative;
+					b {
+						background: url('../img/bg/ricepaper2.png');
+						padding: 0 10px;
+						position: relative;
+						z-index: 5000;
+					}
+					&:after {
+					background: $gray;
+					content: " ";
+					left: 0;
+					position: absolute;
+					top: 50%;
+					height: 1px;
+					width: 100%;
+					z-index: 4000;
+				}
+			}
+			i {
+				display: block;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 1.1em;
+			}
+		}
+	}
+	ul {
+		margin-bottom: $gutter;
+		li {
+			font-size: 16px;
+			padding: 5px 0;
+			&.current_page_item {
+				a {text-decoration: underline;}
+				ul li a {text-decoration: none!important;}
+			}
+			a {
+				&:hover {
+					color: $red;
+					text-decoration: underline;
+				}
+			}
+			&.menu-item-has-children {
+				ul {
+					padding-top: 10px;
+					li a {
+						@include crimson(text);
+						color: $text;
+						font-size: 16px;
+						font-weight: 400;
+					}
+				}
+			}
+		}
+	}
+}
+
+.right-sidebar {
+	text-align: left;
+	padding: 148px 0 $gutter 0;
+	float: left;
+	width: 25%;
+	h3 {
+		color: $gold;
+		border-top: 1px solid $gray;
+		padding: 10px 0 0 $gutter;
+		text-transform: lowercase;
+	}
+	i {
+		font-style: italic;
+	}
+	ul {
+		margin: 10px $gutter $gutter $gutter;
+		li {
+			font-size: 16px;
+			padding: 5px 0;
+			a {
+				&:hover {
+					color: $text-hover;
+				}
+			}
+			&.menu-item-has-children {
+				ul {
+					margin-left: 0;
+					padding-top: 0px;
+					li a {
+						@include crimson(text);
+						color: $text;
+						font-size: 16px;
+						font-weight: 400;
+					}
+				}
+			}
+
+		}
+	}
+	form.search {
+		overflow: hidden;
+		margin: 10px 0 10px $gutter;
+		input {
+			border: none;
+			float: left;
+			font-size: 15px;
+			padding: 5px;
+			width: 65%;
+		}
+		button {
+			background: none;
+			border: none;
+			color: $gray;
+			float: left;
+			font-size: 15px;
+			padding: 5px;
+			text-transform: uppercase;
+			width: 35%;
+		}
+	}
+}
+
+.contact-sidebar {
+	border-left: 1px solid $gray;
+	text-align: left;
+	margin-top: 90px;
+	padding: 0 0 $gutter 0;
+	float: left;
+	width: 25%;
+	i {
+		font-style: italic;
+	}
+	p {
+		color: $text;
+		margin: 0 0 $gutter ($gutter*2);
+	}
+}
+
+//Time.ly Widget
+
+.ai1ec-agenda-widget-view {
+	margin: 15px 0 15px 15px;
+}
+
+@include breakpoint(worker) {
+	.sidebar {
+		display: none;
+	}
+	.right-sidebar {
+		padding: 0;
+		width: 100%;
+	}
+	.contact-sidebar {
+		border: none;
+		margin: 20px;
+		width: 100%;
+		p {
+			margin: 0 0 20px 0;
+		}
+	}
+}

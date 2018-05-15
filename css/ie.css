@@ -1,0 +1,9 @@
+.menu li:not(.brand-links):not(.brand-spacer) {
+    position: relative;
+    top: -30px;
+}
+
+.search {
+    position: relative;
+    top: -30px;
+}

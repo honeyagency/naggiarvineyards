@@ -1,0 +1,105 @@
+
+body.homepage {
+	section {
+		overflow: hidden;
+		padding: 20px 0 0 0;
+		article {
+			float: left;
+			position: relative;
+			padding: 0 15px 15px 15px;
+			text-align: left;
+			line-height: 1.2em;
+			width: 33.3333%;
+			h3 {
+				border-top: 1px solid $gray;
+				margin: 0 0 20px 0;
+				padding: 10px 0 0 0;
+			}
+			a.thumbnail {
+				display: block;
+				overflow: hidden;
+				height: 210px;
+				margin-bottom: 15px;
+				width: 100%;
+			}
+			.wp-post-image {
+				margin: -40px 0 0 0;
+			}
+			.read-more {	
+				display: none;
+			}
+		}
+		.home-links {
+			clear: both;
+			display: block;
+			a {
+			float: left;
+			padding: 0 15px;
+			width: 33.33%;
+			span {
+				border-bottom: 1px solid $gray;
+				display: block;
+				padding: 0 0 8px 0;
+				}	
+			}
+		}
+	}
+	section.white {
+		margin: 0 15px 50px 15px;
+		padding: 0;
+		div {
+			text-align: left;
+		}
+		h3 {
+			border-top: 1px solid $gray;
+			margin: 40px 40px 20px 0;
+			padding: 15px 0 0 0;
+			font-size: 32px;
+		}
+		.map {
+			padding: 30px 30px 15px 30px;
+		}
+		.columns.eight {
+			font-size: 14px;
+			padding: 0 $gutter 0 0 ;
+		} 
+	}
+}
+
+@include breakpoint(worker) {
+	body.homepage {
+		section {
+			display: block;
+			article {
+				display: block;
+				float: left;
+				width: 100%;
+				a.thumbnail {height: auto;}
+				.read-more {
+					background: $gold;
+					border: 1px solid $gray;
+					color: white;
+					display: block;
+					text-align: center;
+					margin: 0 0 10px 0;
+					padding: 8px;
+				}
+			}
+			.home-links {
+				display: none;
+			}
+		}
+		section.white {
+			margin: 0;
+			padding: 20px;
+			h3 {
+				font-size: 20px;
+				line-height: 1em; //Maybe move this to fonts
+				margin: $gutter 0;
+			}
+			.map {
+				padding: 0;
+			}
+		}
+	}
+}

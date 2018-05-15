@@ -1,0 +1,267 @@
+//Skeleton
+//Skeleton
+@import "global";
+
+/* #Box Sizing!
+================================================== */
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+.flex {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* #Base 960 Grid
+================================================== */
+
+@mixin breakpoint($point) {
+  @if $point == queen {
+    @media (max-width: 960px) { @content; }
+  }
+  @else if $point == drone {
+    @media (max-width: 960px) { @content; }
+  }
+  @else if $point == worker {
+    @media (max-width: 800px)  { @content; }
+  }
+  @else if $point == larva {
+    @media (max-width: 600px)  { @content; }
+  }
+}
+
+@mixin retina {
+  @media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+      @content;
+  }
+}
+
+@mixin col-width ($col-number){
+  float: left;
+  width: (100% / $col-number); 
+}
+
+
+.column,
+.columns {
+  float: left;
+  display: inline;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.pad-center {
+  padding: 0 ($gutter / 2 + 4); /* 8px to compensate for 1px borders */
+}
+.pad-left {
+  padding: 0 ($gutter / 2) 0 0;
+}
+
+.pad-right {
+  padding: 0 0 0 ($gutter / 2);
+}
+
+.margin-center {
+  margin: 0 ($gutter / 2);
+}
+.margin-left {
+  margin: 0 ($gutter / 2) 0 $gutter;
+}
+
+.margin-right {
+  margin: 0 $gutter 0 ($gutter / 2);
+}
+
+.row {}
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.row:after {
+    clear: both;
+}
+
+
+/* Nested Column Classes */
+.no-margin, .no-paddiing {
+  padding: 0; }
+
+/* Base Grid */
+
+.leftcol.column {
+  text-align: left;
+  width: 59.4%;
+}
+
+.rightcol.column {
+  text-align: left;
+  width: 40.6%;
+}
+
+.one.column,
+.one.columns {
+  width: 6.25%; }
+
+.two.columns {
+  width: 12.5%; }
+
+.three.columns {
+  width: 18.75%; }
+
+.four.columns {
+  width: 25%; }
+
+.five.columns {
+  width: 23.95833%; }
+
+.six.columns {
+  width: 37.5%; }
+
+.seven.columns {
+  width: 43.75%; }
+
+.eight.columns {
+  width: 50%; }
+
+.nine.columns {
+  width: 56.25%; }
+
+.ten.columns {
+  width: 62.5%; }
+
+.eleven.columns {
+  width: 68.75%; }
+
+.twelve.columns {
+  width: 75%; }
+
+.thirteen.columns {
+  width: 81.25%; }
+
+.fourteen.columns {
+  width: 87.5%; }
+
+.fifteen.columns {
+  width: 93.75%; }
+
+.sixteen.columns {
+  width: 100%; }
+
+.one-third.column {
+  width: 33.33333%; }
+
+.two-thirds.column {
+  width: 66.66667%; 
+}
+.one-half.column {
+  width: 50%;
+}
+.one-fourth.column {
+  width: 25%;
+}
+
+.one-fifth.column, .one-fifth.columns {
+  width: 20%;
+}
+
+.one-sixth.column, .one-sixth.columns {
+  width: 16.66%;
+}
+
+/* For Bio Page - Most likely should be moved out of skeleton */
+.one-fourteenth.columns {
+  width: 7.14%; 
+  img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    width: 100%;
+    max-width: 100%;
+    &:hover {
+    filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    }
+  }
+  @include breakpoint(larva) {width: 14.28%;} 
+} 
+
+.one.column,
+.one.columns,
+.two.columns,
+.three.columns,
+.four.columns,
+.five.columns,
+.six.columns,
+.seven.columns,
+.eight.columns,
+.nine.columns,
+.ten.columns,
+.eleven.columns,
+.twelve.columns,
+.thirteen.columns,
+.fourteen.columns,
+.fifteen.columns,
+.sixteen.columns,
+.one-third.column, 
+.two-thirds.column, 
+.one-half.column, 
+.one-fourth.column,
+.one-fifth.column, 
+.one-sixth.column, 
+.leftcol.column,
+.rightcol.column {
+  @include breakpoint(worker) {
+    width: 100%;
+    div {padding: 0;}
+  }
+}
+

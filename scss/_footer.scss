@@ -1,0 +1,112 @@
+footer {
+	@include crimson(normal);
+	background: $gold url('../img/bg/gold.jpg');
+	color: $white;
+	clear: both;
+	.footer-wrapper {
+		border-bottom: 1px solid $white;
+		margin: 0 auto 4px auto;
+		max-width: 960px;
+		overflow: hidden;
+		padding: 40px 0 30px 0;
+		.column {
+			line-height: 1.2em;
+			padding: 15px;
+			text-align: left;
+			.button {
+				@include lato(bold);
+				border: 1px solid $white;
+				display: inline-block;
+				padding: 5px 10px;
+				margin: 0 0 ($gutter/2) 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				border-top: 1px solid $white;
+				color: $white;
+				padding: 8px 0 0 0;
+				margin-bottom: 15px;
+			}
+			p {
+				margin-bottom: ($gutter/2);
+			}
+			ul {
+				li {
+					margin-bottom: 5px;
+				}
+			}
+			a {
+				color: $white;
+			}
+		}
+	}
+	
+}
+
+#menu-footer-menu {
+		border-top: 1px solid $white;
+		font-size: 14px;
+		font-weight: 700;
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 15px 0 40px 0;
+		text-align: center;
+		li {
+			display: inline;
+			&.menu-item:after {
+				content:"\00b7";
+				margin: 0 2px;
+				font-weight: bold;
+			}
+			&.last-menu-item:after {display: none;}
+			&.honey-link {
+				padding-left: 5px;
+				&:before {
+					content: '\2002| \2002';
+				}
+			}
+		}
+	
+		a {color: $white;}
+	}
+
+	@include breakpoint(worker) {
+		footer {
+			.footer-wrapper {
+				.column {
+					.button {
+						display: block;
+						text-align: center;
+						width: 100%;
+					}
+					h3 {
+						border: none;
+						border-bottom: 1px solid $white;
+						padding-bottom: ($gutter/2); 
+						text-align: center;
+					}
+					p {
+						line-height: 2em;
+					}
+					ul {
+						li {
+							border-bottom: 1px dotted $white;
+							line-height: 2em;
+						}
+					}
+				}
+			}
+		}
+		#menu-footer-menu {	
+			li {
+				padding: 5px 0;
+				&.copyright {
+					display: block; 
+				}
+				&.honey-link {
+					display: block; border: none;
+					&:before {content: ' ';}
+				}
+			}
+		}	
+	}

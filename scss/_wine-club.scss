@@ -1,0 +1,186 @@
+//Wine Club
+
+body.wine-club, body.wine-club-test {
+    article {
+        overflow: hidden;
+
+        span.asterisk {
+            display: block;
+            float: right;
+            padding: 5px 0;
+        }
+
+        .row {
+            border-bottom: 1px solid $gray;
+        }
+
+        a.join {
+            @include crimson(normal);
+
+            border-top: 1px solid $gray;
+            border-bottom: 1px solid $gray;
+            color: white;
+            display: inline-block;
+            font-size: 29px;
+            font-style: italic;
+            line-height: 1.7em;
+            padding: 4px 0;
+            margin: $gutter 0;
+            text-transform: uppercase;
+
+            span {
+                background: $gold;
+                display: block;
+                padding: 0 40px;
+            }
+        }
+
+        .benefits {
+            border-top: 1px solid $gray;
+            padding-top: 4px;
+
+            a.bottleshot {
+                display: block;
+                height: 360px;
+            }
+
+            img {
+                -webkit-transition: margin .5s;
+                max-width: 100%;
+                width: 100%;
+
+                &:hover {
+                    margin-top: -10px;
+                }
+            }
+
+            h4 {
+                background: $gold;
+                color: $white;
+                margin: 0 4px 30px 0;
+                padding: $gutter / 2;
+
+                a {
+                    color: white;
+                }
+            }
+
+            .choose {
+                background: $red;
+                border-bottom: 4px solid $gold;
+                clear: both;
+                overflow: hidden;
+                margin: 5px;
+
+                a {
+                    background: $red;
+                    color: white !important;
+                    display: block;
+                    float: left;
+                    padding: 5px 10px;
+                    width: 50%;
+
+                    &:first-child {
+                        border-right: 1px solid $gold;
+                    }
+
+                    &:hover {
+                        background: darken($red, 3%);
+                    }
+                }
+
+                &.whole {
+                    a {
+                        width: 100%;
+                        border-right: none !important;
+                    }
+                }
+            }
+
+            .details {
+                padding: $gutter;
+                text-align: left;
+
+                .price {
+                    @include lato(normal);
+
+                    font-size: 17px;
+
+                    span {
+                        color: $red;
+                    }
+                }
+            }
+
+            #sixBottleMargin {
+                margin-top: 41px;
+            }
+        }
+    }
+
+    .lower-content {
+        a {
+            background: $red;
+            border-bottom: 4px solid $gold;
+            color: white;
+            display: inline-block;
+            float: left;
+            font-size: 20px;
+            padding: 5px 10px;
+            margin: 0 0 40px 0;
+            text-transform: uppercase;
+            text-align: right;
+
+            &:last-child {
+                float: right;
+            }
+
+            @include breakpoint(worker) {
+                width: 100%;
+                text-align: center;
+                margin: 0 0 10px 0;
+
+                &:last-child {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(worker) {
+    body.wine-club, body.wine-club-test {
+        article {
+            a.join {
+                font-size: 22px;
+                display: block;
+                text-align: center;
+
+                span {
+                    padding: 0 10px;
+                }
+            }
+
+            .benefits {
+                a.bottleshot {
+                    height: auto;
+
+                    img {
+                        width: auto;
+
+                        &:hover {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 801px) {
+    #sixBottleMargin {
+        margin-top: 0 !important;
+    }
+}

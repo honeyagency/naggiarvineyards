@@ -1,0 +1,349 @@
+header {
+    background: $red url("../img/bg/header.gif") no-repeat top center;
+    border-bottom: 5px solid $gold;
+
+    .topbar {
+        color: $ltgray;
+        margin: 0 auto;
+        text-align: right;
+        max-width: 960px;
+
+        nav[role="top"] {
+            display: inline-block;
+
+            ul {
+                display: block;
+
+                li {
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 50px;
+                    margin: 0 0 0 -4px;
+
+                    //Fight inline block space
+                    padding: 0;
+
+                    &.current-menu-item, &.current_page_parent {
+                        a {
+                            color: $gold;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    &:before {
+                        background: url("../img/bg/dot.png") no-repeat center center;
+                        display: inline-block;
+                        content: '';
+                        height: 10px;
+                        margin: 0 5px;
+                        width: 6px;
+                    }
+
+                    &.first-menu-item:before, &.facebook-link:before, &.twitter-link:before, &.instagram-link:before {
+                        display: none;
+                    }
+
+                    // Hide from first child
+                    &.facebook-link, &.twitter-link, &.instagram-link {
+                        border-left: 1px solid $white;
+                        padding: 0 5px;
+
+                        span {
+                            color: $white;
+                            font-size: 25px;
+
+                            &:hover {
+                                color: $gold;
+                            }
+                        }
+                    }
+
+                    &.facebook-link {
+                        margin-left: 10px;
+                        padding-right: 8px;
+
+                        span {
+                            font-size: 24px;
+                        }
+                    }
+
+                    &.instagram-link {
+                        margin-right: 4px;
+                    }
+
+                    a {
+                        @include lato(bold);
+
+                        color: white;
+                        font-size: 12px;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+
+            form {
+                position: relative;
+                top: -20px;
+            }
+
+            input {
+                border: none;
+                height: 20px;
+                width: 270px;
+            }
+
+            button {
+                @include lato(bold);
+
+                background: none;
+                border: 1px solid $white;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+
+        .brand-spacer {
+            &:before {
+                background: transparent !important;
+            }
+        }
+
+        #menu-top-menu .brand-links {
+            height: auto !important;
+            border-right: 1px solid $gold;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 0;
+
+            img {
+                vertical-align: top;
+            }
+
+            &:first-child {
+                border-left: 1px solid $gold;
+                border-right: 1px solid $gold;
+            }
+
+            &:before {
+                content: none !important;
+                background: transparent !important;
+            }
+        }
+    }
+
+    .main-nav {
+        margin: 5px auto 30px auto;
+        max-width: 960px;
+
+        .logo {
+            float: left;
+            height: 70px;
+            position: relative;
+            width: 257px;
+
+            a {
+                background: url("../img/bg/logo.png") no-repeat center center;
+
+                @media all and (-webkit-min-device-pixel-ratio: 2), all and (-moz-min-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 2), all and (-o-min-device-pixel-ratio: 2 / 1) {
+                    background: url("../img/bg/logo2x.png") no-repeat center center;
+                    background-size: 257px 98px;
+                }
+
+                display: block;
+                height: 98px;
+                position: absolute;
+                text-indent: -9999px;
+                bottom: -10px;
+                width: 257px;
+            }
+        }
+
+        nav[role="main"] {
+            display: block;
+            text-align: right;
+
+            ul {
+                display: inline-block;
+
+                li {
+                    display: table;
+                    float: left;
+                    height: 70px;
+                    margin: 0 10px;
+                    padding-bottom: 1px;
+
+                    //Compensate for 1px border on hover
+                    &.mobile-button {
+                        display: none;
+                    }
+
+                    &.hide {
+                        display: none;
+                    }
+
+                    //Hide some Elements from full size view
+                    &:hover, &.current-page-ancestor, &.current-menu-item {
+                        background: url(../img/sprite/nav-hover.png) no-repeat top center;
+
+                        //Need to replace this with sprite code
+                        border-bottom: 1px solid $gold;
+                        padding-bottom: 0;
+
+                        a {
+                            color: $gold;
+                        }
+                    }
+
+                    a {
+                        @include decor(bold);
+
+                        color: $ltgray;
+                        display: table-cell;
+                        font-size: 15px;
+                        padding: 10px 0 5px 0;
+                        text-align: center;
+                        vertical-align: bottom;
+
+                        &:hover {
+                            color: $gold;
+                        }
+                    }
+
+                    ul.sub-menu {
+                        display: none;
+                    }
+
+                    //Hide subnav when not mobile
+               
+                }
+            }
+
+            .brand-mobile-link {
+                display: none;
+            }
+        }
+    }
+}
+
+@include breakpoint(worker) {
+    header {
+        .topbar {
+            display: none;
+        }
+
+        .main-nav {
+            .logo {
+                display: block;
+                height: auto;
+                margin: 0 0 $gutter 0;
+                width: 100%;
+
+                a {
+                    display: block;
+                    position: relative;
+                    width: 100%;
+                }
+            }
+
+            nav[role="main"] {
+                ul {
+                    border: none;
+                    display: block;
+
+                    li {
+                        display: none;
+                        clear: left;
+                        height: auto;
+                        margin: 0;
+                        padding: 0 10px;
+                        width: 100%;
+
+                        &.mobile-button {
+                            display: block;
+                            height: 20px;
+                            float: right;
+                            margin-right: 10px;
+                            padding: 0;
+                            position: relative;
+                            width: 40px;
+
+                            a {
+                                display: block;
+                                position: relative;
+                                text-indent: -9999px;
+                                width: 100%;
+                                z-index: 5000;
+                            }
+
+                            a:after {
+                                background: white;
+                                content: " ";
+                                display: block;
+                                height: 4px;
+                                line-height: 0 !important;
+                                position: absolute;
+                                text-indent: -9999px;
+                                top: 0;
+                                width: 100%;
+                                z-index: 4000;
+                            }
+
+                            &:after {
+                                background: white;
+                                content: " ";
+                                display: block;
+                                height: 4px;
+                                margin-top: -2px;
+                                position: absolute;
+                                top: 50%;
+                                width: 100%;
+                                z-index: 4000;
+                            }
+
+                            &:before {
+                                background: white;
+                                bottom: 0;
+                                content: " ";
+                                display: block;
+                                height: 4px;
+                                position: absolute;
+                                width: 100%;
+                                z-index: 4000;
+                            }
+                        }
+
+                        &:hover {
+                            color: inherit;
+                        }
+
+                        ul.sub-menu {
+                            float: left;
+                            width: 100%;
+
+                            li {
+                                display: block;
+                                border-bottom: 1px solid lighten($red, 10%);
+                                margin: 0;
+                                padding: 5px $gutter;
+                            }
+                        }
+
+                        &:hover, &.current-page-ancestor, &.current-menu-item {
+                            background: none;
+                            border: none;
+                        }
+
+                        a {
+                            display: block;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

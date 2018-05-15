@@ -1,0 +1,85 @@
+body.press {
+	article {
+		padding-left: 35px; //Compensate for three columns
+	}
+	h1 {
+		margin-left: 10px;
+	}
+	h4 {
+		color: $text;
+		font-size: 24px;
+		margin-left: 10px;
+		margin-bottom: $gutter;
+	}
+	.column {
+		padding: 10px;
+		text-align: left;
+	}
+	.press-links {
+		display: table;
+		margin-bottom: $gutter;
+		text-align: left;
+		&.add {
+			margin-top: $gutter;
+		}
+		.cell {
+			display: table-cell;
+			padding: 0 10px 30px 10px;
+			position: relative;
+			width: 33.33%;
+			
+		}
+		h5 {
+			border-top: 1px solid $gray;
+			margin: 0 0 ($gutter/2) 0;
+			padding: 5px 0 0 0;
+		}
+		p {
+			color: $text;
+		}
+		a.more-link {
+			border-bottom: 1px solid $gray;
+			bottom: 0;
+			display: inline-block;
+			left: 10px;
+			height: 25px;
+			right: 10px;
+			position: absolute;
+		}
+	}
+
+	.awards {
+		margin: $gutter 10px;
+		h5 {
+			margin-bottom: 10px;
+		}
+		div {
+			padding: 0; //reset all
+		}
+		.the-venue {
+			margin-top: 10px;
+			overflow: hidden;
+		}
+		.one-third.outer {
+			padding: 0 10px 0 0;
+		}
+		.two-thirds.outer {
+			padding: 0 10px;
+		}
+	}
+}
+
+@include breakpoint(worker) {
+	body.press {
+		article {
+			padding: 10px;
+			.press-links {
+				display: block;
+				.cell {
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

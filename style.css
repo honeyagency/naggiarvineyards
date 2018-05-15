@@ -1,0 +1,13 @@
+/*
+	Theme Name: Naggiar Vineyards
+	Theme URI: http://naggiarvineyards.com
+	Description: Naggiar Vineyards WordPress Theme
+	Version: 1.0
+	Author: Josh Howenstine (@joshhowenstine)
+	Author URI: http://honeyagency.com
+	Tags: Naggiar, HTML5, CSS3
+*/
+
+#tripAdivsor > div > div {
+	width: 100% !important;
+}

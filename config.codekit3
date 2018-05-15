@@ -1,0 +1,5823 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "645E9A36-FDCB-4846-885F-DC7E9C896F94"
+		}
+	],
+"creatorBuild": "25900",
+"files": {
+	"\/.ftpquota": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.ftpquota",
+		"oF": 0
+		},
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.revision": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.revision",
+		"oF": 0
+		},
+	"\/.sass-cache\/0e1c40bd7f88f0d48c3c82a7f81bda17acb4c76c\/_css3.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/0e1c40bd7f88f0d48c3c82a7f81bda17acb4c76c\/_css3.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/0e1c40bd7f88f0d48c3c82a7f81bda17acb4c76c\/_reset.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/0e1c40bd7f88f0d48c3c82a7f81bda17acb4c76c\/_reset.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/0e1c40bd7f88f0d48c3c82a7f81bda17acb4c76c\/_support.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/0e1c40bd7f88f0d48c3c82a7f81bda17acb4c76c\/_support.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_animation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_animation.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_appearance.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_appearance.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_background-clip.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_background-clip.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_background-origin.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_background-origin.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_background-size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_background-size.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_border-radius.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_border-radius.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_box-shadow.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_box-shadow.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_box-sizing.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_box-sizing.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_columns.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_filter.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_filter.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_flexbox.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_flexbox.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_font-face.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_font-face.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_hyphenation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_hyphenation.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_images.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_images.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_inline-block.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_inline-block.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_opacity.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_opacity.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_regions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_regions.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_text-shadow.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_text-shadow.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_transform.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_transform.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_transition.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_transition.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_user-interface.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/5a0e3673aef434552d572d9f0bd008ec5092a497\/_user-interface.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/62633f9d70187ec35eaba79e46728a23278e03db\/_utilities.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/62633f9d70187ec35eaba79e46728a23278e03db\/_utilities.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/73ba5d62dcfc00f8a60fbe809709476e4a1aa6a4\/_hacks.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/73ba5d62dcfc00f8a60fbe809709476e4a1aa6a4\/_hacks.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/404.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/404.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_blog.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_blog.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_comments.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_comments.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_contact-seven.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_contact-seven.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_contact.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_contact.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_content.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_content.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_events.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_events.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_fonts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_fonts.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_footer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_footer.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_global.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_global.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_header.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_header.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_homepage.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_homepage.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_myslider.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_myslider.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_plan-events.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_plan-events.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_press.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_press.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_sidebar.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_sidebar.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_single.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_single.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_skeleton.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_skeleton.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_trade.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_trade.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_wine-club.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_wine-club.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_wines.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/_wines.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/ie.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/ie.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/print.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/print.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/screen.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/d6f4d830ac1da4f7b87f5717b31db860c7298d2d\/screen.scssc",
+		"oF": 0
+		},
+	"\/404.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/404.php",
+		"oF": 0
+		},
+	"\/archive.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/archive.php",
+		"oF": 0
+		},
+	"\/author.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/author.php",
+		"oF": 0
+		},
+	"\/category.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/category.php",
+		"oF": 0
+		},
+	"\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/comments.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/comments.php",
+		"oF": 0
+		},
+	"\/config.rb": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config.rb",
+		"oF": 0
+		},
+	"\/css\/404.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/404-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/ie.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/ie-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/print-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/screen.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/screen-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/Cinzel-Black-demo.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_black_macroman\/Cinzel-Black-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_black_macroman\/Cinzel-Black-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/specimen_files\/Cinzel-Black-cleartype.png": {
+		"ft": 32768,
+		"iS": 82875,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_black_macroman\/specimen_files\/Cinzel-Black-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/cinzel_black_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_black_macroman\/specimen_files\/min\/easytabs-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_black_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_black_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_black_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_black_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-demo.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/Cinzel-Bold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/specimen_files\/Cinzel-Bold-cleartype.png": {
+		"ft": 32768,
+		"iS": 83686,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/specimen_files\/Cinzel-Bold-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/cinzel_bold_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/specimen_files\/min\/easytabs-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_bold_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_bold_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-demo.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/Cinzel-Regular-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/specimen_files\/Cinzel-Regular-cleartype.png": {
+		"ft": 32768,
+		"iS": 84355,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/specimen_files\/Cinzel-Regular-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/cinzel_regular_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/specimen_files\/min\/easytabs-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzel_regular_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzel_regular_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-demo.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/CinzelDecorative-Black-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/CinzelDecorative-Black-cleartype.png": {
+		"ft": 32768,
+		"iS": 89856,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/CinzelDecorative-Black-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/min\/easytabs-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_black_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_black_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-demo.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/CinzelDecorative-Bold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/CinzelDecorative-Bold-cleartype.png": {
+		"ft": 32768,
+		"iS": 91996,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/CinzelDecorative-Bold-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/min\/easytabs-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_bold_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_bold_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-demo.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/CinzelDecorative-Regular-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/CinzelDecorative-Regular-cleartype.png": {
+		"ft": 32768,
+		"iS": 92526,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/CinzelDecorative-Regular-cleartype.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/easytabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/min\/easytabs-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/cinzeldecorative_regular_macroman\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/cinzeldecorative_regular_macroman\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/icomoon\/icomoon.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/icomoon\/icomoon.eot",
+		"oF": 0
+		},
+	"\/fonts\/icomoon\/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/icomoon\/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/icomoon\/icomoon.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/icomoon\/icomoon.ttf",
+		"oF": 0
+		},
+	"\/fonts\/icomoon\/icomoon.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/icomoon\/icomoon.woff",
+		"oF": 0
+		},
+	"\/fonts\/icomoon\/selection.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/fonts\/icomoon\/selection-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/fonts\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/readme.txt",
+		"oF": 0
+		},
+	"\/footer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/functions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/img\/404.png": {
+		"ft": 32768,
+		"iS": 141701,
+		"oA": 0,
+		"oAP": "\/img\/404.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/content.jpg": {
+		"ft": 16384,
+		"iS": 25432,
+		"oA": 0,
+		"oAP": "\/img\/bg\/content.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/bg\/distressed-white.jpg": {
+		"ft": 16384,
+		"iS": 14325,
+		"oA": 0,
+		"oAP": "\/img\/bg\/distressed-white.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/bg\/dot.png": {
+		"ft": 32768,
+		"iS": 971,
+		"oA": 0,
+		"oAP": "\/img\/bg\/dot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/gold.jpg": {
+		"ft": 16384,
+		"iS": 1980,
+		"oA": 0,
+		"oAP": "\/img\/bg\/gold.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/bg\/header-nv-wines.jpg": {
+		"ft": 16384,
+		"iS": 41639,
+		"oA": 0,
+		"oAP": "\/img\/bg\/header-nv-wines.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/bg\/header.gif": {
+		"ft": 4194304,
+		"iS": 195830,
+		"oA": 0,
+		"oAP": "\/img\/bg\/header.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bg\/header.jpg": {
+		"ft": 16384,
+		"iS": 20475,
+		"oA": 0,
+		"oAP": "\/img\/bg\/header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/bg\/header.png": {
+		"ft": 32768,
+		"iS": 386037,
+		"oA": 0,
+		"oAP": "\/img\/bg\/header.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/ice_age.png": {
+		"ft": 32768,
+		"iS": 95194,
+		"oA": 0,
+		"oAP": "\/img\/bg\/ice_age.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/logo-della-casa.png": {
+		"ft": 32768,
+		"iS": 9356,
+		"oA": 0,
+		"oAP": "\/img\/bg\/logo-della-casa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/logo-nv-wines.png": {
+		"ft": 32768,
+		"iS": 6757,
+		"oA": 0,
+		"oAP": "\/img\/bg\/logo-nv-wines.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/logo.png": {
+		"ft": 32768,
+		"iS": 17157,
+		"oA": 0,
+		"oAP": "\/img\/bg\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/logo2x.png": {
+		"ft": 32768,
+		"iS": 9830,
+		"oA": 0,
+		"oAP": "\/img\/bg\/logo2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/map.png": {
+		"ft": 32768,
+		"iS": 14436,
+		"oA": 0,
+		"oAP": "\/img\/bg\/map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/ricepaper2.png": {
+		"ft": 32768,
+		"iS": 283626,
+		"oA": 0,
+		"oAP": "\/img\/bg\/ricepaper2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg\/ricepaper2_@2X.png": {
+		"ft": 32768,
+		"iS": 104761,
+		"oA": 0,
+		"oAP": "\/img\/bg\/ricepaper2_@2X.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/brand-dellacasa-gold.png": {
+		"ft": 32768,
+		"iS": 6017,
+		"oA": 0,
+		"oAP": "\/img\/brand-dellacasa-gold.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/brand-naggiar-gold.png": {
+		"ft": 32768,
+		"iS": 6955,
+		"oA": 0,
+		"oAP": "\/img\/brand-naggiar-gold.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/brand-naggiar-white.png": {
+		"ft": 32768,
+		"iS": 14714,
+		"oA": 0,
+		"oAP": "\/img\/brand-naggiar-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/brand-nv-gold.png": {
+		"ft": 32768,
+		"iS": 3921,
+		"oA": 0,
+		"oAP": "\/img\/brand-nv-gold.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/brand-nv-white.png": {
+		"ft": 32768,
+		"iS": 4958,
+		"oA": 0,
+		"oAP": "\/img\/brand-nv-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/derick-irwin.jpg": {
+		"ft": 16384,
+		"iS": 28530,
+		"oA": 0,
+		"oAP": "\/img\/derick-irwin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/event-fade.png": {
+		"ft": 32768,
+		"iS": 2425,
+		"oA": 0,
+		"oAP": "\/img\/event-fade.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/gravatar.jpg": {
+		"ft": 16384,
+		"iS": 3482,
+		"oA": 0,
+		"oAP": "\/img\/gravatar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/about-header-image.jpg": {
+		"ft": 16384,
+		"iS": 146984,
+		"oA": 0,
+		"oAP": "\/img\/headers\/about-header-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/barrels.jpg": {
+		"ft": 16384,
+		"iS": 94084,
+		"oA": 0,
+		"oAP": "\/img\/headers\/barrels.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/dc_header_nav_logo.png": {
+		"ft": 32768,
+		"iS": 5053,
+		"oA": 0,
+		"oAP": "\/img\/headers\/dc_header_nav_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/headers\/main-homepage.jpg": {
+		"ft": 16384,
+		"iS": 176717,
+		"oA": 0,
+		"oAP": "\/img\/headers\/main-homepage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/myslide-more.png": {
+		"ft": 32768,
+		"iS": 9926,
+		"oA": 0,
+		"oAP": "\/img\/headers\/myslide-more.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/headers\/naggiar-vineyards-music.jpg": {
+		"ft": 16384,
+		"iS": 129828,
+		"oA": 0,
+		"oAP": "\/img\/headers\/naggiar-vineyards-music.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/naggiar-wine-bottles.jpg": {
+		"ft": 16384,
+		"iS": 69661,
+		"oA": 0,
+		"oAP": "\/img\/headers\/naggiar-wine-bottles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/naggiar.jpg": {
+		"ft": 16384,
+		"iS": 131072,
+		"oA": 0,
+		"oAP": "\/img\/headers\/naggiar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/nv_header_nav_logo.png": {
+		"ft": 32768,
+		"iS": 3306,
+		"oA": 0,
+		"oAP": "\/img\/headers\/nv_header_nav_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/headers\/root49.jpg": {
+		"ft": 16384,
+		"iS": 74032,
+		"oA": 0,
+		"oAP": "\/img\/headers\/root49.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/tasting-room.jpg": {
+		"ft": 16384,
+		"iS": 114310,
+		"oA": 0,
+		"oAP": "\/img\/headers\/tasting-room.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/vineyard.jpg": {
+		"ft": 16384,
+		"iS": 2790100,
+		"oA": 0,
+		"oAP": "\/img\/headers\/vineyard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/vineyards-grass-valley.jpg": {
+		"ft": 16384,
+		"iS": 133962,
+		"oA": 0,
+		"oAP": "\/img\/headers\/vineyards-grass-valley.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headers\/visit-overlay.png": {
+		"ft": 32768,
+		"iS": 29777,
+		"oA": 0,
+		"oAP": "\/img\/headers\/visit-overlay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/headers\/wines.jpg": {
+		"ft": 16384,
+		"iS": 115298,
+		"oA": 0,
+		"oAP": "\/img\/headers\/wines.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/_blank.png": {
+		"ft": 32768,
+		"iS": 446,
+		"oA": 1,
+		"oAP": "\/img\/icons\/downloads\/16px\/_blank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/_page.png": {
+		"ft": 32768,
+		"iS": 710,
+		"oA": 1,
+		"oAP": "\/img\/icons\/downloads\/16px\/_page.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/aac.png": {
+		"ft": 32768,
+		"iS": 726,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/aac.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/ai.png": {
+		"ft": 32768,
+		"iS": 684,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/ai.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/aiff.png": {
+		"ft": 32768,
+		"iS": 742,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/aiff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/avi.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/avi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/bmp.png": {
+		"ft": 32768,
+		"iS": 708,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/bmp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/c.png": {
+		"ft": 32768,
+		"iS": 554,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/cpp.png": {
+		"ft": 32768,
+		"iS": 592,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/cpp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/css.png": {
+		"ft": 32768,
+		"iS": 683,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/css.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/dat.png": {
+		"ft": 32768,
+		"iS": 595,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/dat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/dmg.png": {
+		"ft": 32768,
+		"iS": 733,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/dmg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/doc.png": {
+		"ft": 32768,
+		"iS": 760,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/doc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/dotx.png": {
+		"ft": 32768,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/dotx.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/dwg.png": {
+		"ft": 32768,
+		"iS": 735,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/dwg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/dxf.png": {
+		"ft": 32768,
+		"iS": 748,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/dxf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/eps.png": {
+		"ft": 32768,
+		"iS": 711,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/eps.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/exe.png": {
+		"ft": 32768,
+		"iS": 747,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/exe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/flv.png": {
+		"ft": 32768,
+		"iS": 713,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/flv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/gif.png": {
+		"ft": 32768,
+		"iS": 707,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/gif.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/h.png": {
+		"ft": 32768,
+		"iS": 530,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/h.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/hpp.png": {
+		"ft": 32768,
+		"iS": 582,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/hpp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/html.png": {
+		"ft": 32768,
+		"iS": 702,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/html.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/ics.png": {
+		"ft": 32768,
+		"iS": 626,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/ics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/iso.png": {
+		"ft": 32768,
+		"iS": 663,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/iso.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/java.png": {
+		"ft": 32768,
+		"iS": 666,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/java.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/jpg.png": {
+		"ft": 32768,
+		"iS": 711,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/jpg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/js.png": {
+		"ft": 32768,
+		"iS": 1513,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/js.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/key.png": {
+		"ft": 32768,
+		"iS": 692,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/key.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/less.png": {
+		"ft": 32768,
+		"iS": 1517,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/less.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/mid.png": {
+		"ft": 32768,
+		"iS": 726,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/mid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/mp3.png": {
+		"ft": 32768,
+		"iS": 730,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/mp3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/mp4.png": {
+		"ft": 32768,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/mp4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/mpg.png": {
+		"ft": 32768,
+		"iS": 730,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/mpg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/odf.png": {
+		"ft": 32768,
+		"iS": 652,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/odf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/ods.png": {
+		"ft": 32768,
+		"iS": 585,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/ods.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/odt.png": {
+		"ft": 32768,
+		"iS": 584,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/odt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/otp.png": {
+		"ft": 32768,
+		"iS": 544,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/otp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/ots.png": {
+		"ft": 32768,
+		"iS": 596,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/ots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/ott.png": {
+		"ft": 32768,
+		"iS": 559,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/ott.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/pdf.png": {
+		"ft": 32768,
+		"iS": 710,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/pdf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/php.png": {
+		"ft": 32768,
+		"iS": 625,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/php.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/png.png": {
+		"ft": 32768,
+		"iS": 713,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/png.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/ppt.png": {
+		"ft": 32768,
+		"iS": 678,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/ppt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/psd.png": {
+		"ft": 32768,
+		"iS": 778,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/psd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/py.png": {
+		"ft": 32768,
+		"iS": 691,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/py.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/qt.png": {
+		"ft": 32768,
+		"iS": 723,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/qt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/rar.png": {
+		"ft": 32768,
+		"iS": 728,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/rar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/rb.png": {
+		"ft": 32768,
+		"iS": 650,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/rb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/rtf.png": {
+		"ft": 32768,
+		"iS": 588,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/rtf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/sass.png": {
+		"ft": 32768,
+		"iS": 1512,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/sass.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/scss.png": {
+		"ft": 32768,
+		"iS": 1511,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/scss.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/sql.png": {
+		"ft": 32768,
+		"iS": 636,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/sql.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/tga.png": {
+		"ft": 32768,
+		"iS": 730,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/tga.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/tgz.png": {
+		"ft": 32768,
+		"iS": 726,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/tgz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/tiff.png": {
+		"ft": 32768,
+		"iS": 706,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/tiff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/txt.png": {
+		"ft": 32768,
+		"iS": 576,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/txt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/wav.png": {
+		"ft": 32768,
+		"iS": 751,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/wav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/xls.png": {
+		"ft": 32768,
+		"iS": 714,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/xls.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/xlsx.png": {
+		"ft": 32768,
+		"iS": 711,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/xlsx.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/xml.png": {
+		"ft": 32768,
+		"iS": 647,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/xml.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/yml.png": {
+		"ft": 32768,
+		"iS": 570,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/yml.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/16px\/zip.png": {
+		"ft": 32768,
+		"iS": 717,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/16px\/zip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/_blank.png": {
+		"ft": 32768,
+		"iS": 3063,
+		"oA": 1,
+		"oAP": "\/img\/icons\/downloads\/32px\/_blank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/_page.png": {
+		"ft": 32768,
+		"iS": 3564,
+		"oA": 1,
+		"oAP": "\/img\/icons\/downloads\/32px\/_page.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/aac.png": {
+		"ft": 32768,
+		"iS": 3887,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/aac.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/ai.png": {
+		"ft": 32768,
+		"iS": 3610,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/ai.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/aiff.png": {
+		"ft": 32768,
+		"iS": 3788,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/aiff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/avi.png": {
+		"ft": 32768,
+		"iS": 3802,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/avi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/bmp.png": {
+		"ft": 32768,
+		"iS": 3786,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/bmp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/c.png": {
+		"ft": 32768,
+		"iS": 3215,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/cpp.png": {
+		"ft": 32768,
+		"iS": 3332,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/cpp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/css.png": {
+		"ft": 32768,
+		"iS": 3836,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/css.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/dat.png": {
+		"ft": 32768,
+		"iS": 3408,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/dat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/dmg.png": {
+		"ft": 32768,
+		"iS": 3735,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/dmg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/doc.png": {
+		"ft": 32768,
+		"iS": 3870,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/doc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/dotx.png": {
+		"ft": 32768,
+		"iS": 3757,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/dotx.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/dwg.png": {
+		"ft": 32768,
+		"iS": 4122,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/dwg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/dxf.png": {
+		"ft": 32768,
+		"iS": 4091,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/dxf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/eps.png": {
+		"ft": 32768,
+		"iS": 3793,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/eps.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/exe.png": {
+		"ft": 32768,
+		"iS": 3844,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/exe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/flv.png": {
+		"ft": 32768,
+		"iS": 3789,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/flv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/gif.png": {
+		"ft": 32768,
+		"iS": 3755,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/gif.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/h.png": {
+		"ft": 32768,
+		"iS": 3170,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/h.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/hpp.png": {
+		"ft": 32768,
+		"iS": 3291,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/hpp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/html.png": {
+		"ft": 32768,
+		"iS": 3629,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/html.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/ics.png": {
+		"ft": 32768,
+		"iS": 3849,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/ics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/iso.png": {
+		"ft": 32768,
+		"iS": 3835,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/iso.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/java.png": {
+		"ft": 32768,
+		"iS": 3784,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/java.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/jpg.png": {
+		"ft": 32768,
+		"iS": 3763,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/jpg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/js.png": {
+		"ft": 32768,
+		"iS": 4140,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/js.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/key.png": {
+		"ft": 32768,
+		"iS": 3615,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/key.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/less.png": {
+		"ft": 32768,
+		"iS": 4272,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/less.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/mid.png": {
+		"ft": 32768,
+		"iS": 3766,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/mid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/mp3.png": {
+		"ft": 32768,
+		"iS": 3835,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/mp3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/mp4.png": {
+		"ft": 32768,
+		"iS": 3855,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/mp4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/mpg.png": {
+		"ft": 32768,
+		"iS": 3839,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/mpg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/odf.png": {
+		"ft": 32768,
+		"iS": 3498,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/odf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/ods.png": {
+		"ft": 32768,
+		"iS": 3680,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/ods.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/odt.png": {
+		"ft": 32768,
+		"iS": 3613,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/odt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/otp.png": {
+		"ft": 32768,
+		"iS": 3509,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/otp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/ots.png": {
+		"ft": 32768,
+		"iS": 3645,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/ots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/ott.png": {
+		"ft": 32768,
+		"iS": 3619,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/ott.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/pdf.png": {
+		"ft": 32768,
+		"iS": 3793,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/pdf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/php.png": {
+		"ft": 32768,
+		"iS": 3663,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/php.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/png.png": {
+		"ft": 32768,
+		"iS": 3896,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/png.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/ppt.png": {
+		"ft": 32768,
+		"iS": 3483,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/ppt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/psd.png": {
+		"ft": 32768,
+		"iS": 3828,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/psd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/py.png": {
+		"ft": 32768,
+		"iS": 3599,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/py.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/qt.png": {
+		"ft": 32768,
+		"iS": 3743,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/qt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/rar.png": {
+		"ft": 32768,
+		"iS": 3785,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/rar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/rb.png": {
+		"ft": 32768,
+		"iS": 3654,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/rb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/rtf.png": {
+		"ft": 32768,
+		"iS": 3392,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/rtf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/sass.png": {
+		"ft": 32768,
+		"iS": 4316,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/sass.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/scss.png": {
+		"ft": 32768,
+		"iS": 4331,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/scss.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/sql.png": {
+		"ft": 32768,
+		"iS": 3839,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/sql.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/tga.png": {
+		"ft": 32768,
+		"iS": 3829,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/tga.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/tgz.png": {
+		"ft": 32768,
+		"iS": 3718,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/tgz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/tiff.png": {
+		"ft": 32768,
+		"iS": 3720,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/tiff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/txt.png": {
+		"ft": 32768,
+		"iS": 3379,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/txt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/wav.png": {
+		"ft": 32768,
+		"iS": 3909,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/wav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/xls.png": {
+		"ft": 32768,
+		"iS": 3782,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/xls.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/xlsx.png": {
+		"ft": 32768,
+		"iS": 3778,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/xlsx.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/xml.png": {
+		"ft": 32768,
+		"iS": 3794,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/xml.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/yml.png": {
+		"ft": 32768,
+		"iS": 3392,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/yml.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/downloads\/32px\/zip.png": {
+		"ft": 32768,
+		"iS": 3646,
+		"oA": 0,
+		"oAP": "\/img\/icons\/downloads\/32px\/zip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/favicon.ico",
+		"oF": 0
+		},
+	"\/img\/icons\/touch.png": {
+		"ft": 32768,
+		"iS": 15472,
+		"oA": 0,
+		"oAP": "\/img\/icons\/touch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/magnify.png": {
+		"ft": 32768,
+		"iS": 2289,
+		"oA": 0,
+		"oAP": "\/img\/magnify.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/posts\/mary-naggiar.jpg": {
+		"ft": 16384,
+		"iS": 42279,
+		"oA": 0,
+		"oAP": "\/img\/posts\/mary-naggiar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/posts\/root-49.gif": {
+		"ft": 4194304,
+		"iS": 98726,
+		"oA": 0,
+		"oAP": "\/img\/posts\/root-49.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/posts\/wine-special.jpg": {
+		"ft": 16384,
+		"iS": 58765,
+		"oA": 0,
+		"oAP": "\/img\/posts\/wine-special.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/social\/facebook.png": {
+		"ft": 32768,
+		"iS": 2843,
+		"oA": 0,
+		"oAP": "\/img\/social\/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/social\/google-plus.png": {
+		"ft": 32768,
+		"iS": 2475,
+		"oA": 0,
+		"oAP": "\/img\/social\/google-plus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/social\/pin-it.png": {
+		"ft": 32768,
+		"iS": 2087,
+		"oA": 0,
+		"oAP": "\/img\/social\/pin-it.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/social\/tweet.png": {
+		"ft": 32768,
+		"iS": 3891,
+		"oA": 0,
+		"oAP": "\/img\/social\/tweet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/sprite\/download-arrow.png": {
+		"ft": 32768,
+		"iS": 1226,
+		"oA": 0,
+		"oAP": "\/img\/sprite\/download-arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/sprite\/nav-hover.png": {
+		"ft": 32768,
+		"iS": 1835,
+		"oA": 0,
+		"oAP": "\/img\/sprite\/nav-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/vine-leaf.jpg": {
+		"ft": 16384,
+		"iS": 85505,
+		"oA": 0,
+		"oAP": "\/img\/vine-leaf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/wine-club-3-bottle.png": {
+		"ft": 32768,
+		"iS": 80071,
+		"oA": 0,
+		"oAP": "\/img\/wine-club-3-bottle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wine-club-4-bottle-old.png": {
+		"ft": 32768,
+		"iS": 94541,
+		"oA": 0,
+		"oAP": "\/img\/wine-club-4-bottle-old.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wine-club-4-bottle.png": {
+		"ft": 32768,
+		"iS": 94541,
+		"oA": 0,
+		"oAP": "\/img\/wine-club-4-bottle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wine-club-6-bottle.png": {
+		"ft": 32768,
+		"iS": 98684,
+		"oA": 0,
+		"oAP": "\/img\/wine-club-6-bottle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wine-no-image.jpg": {
+		"ft": 16384,
+		"iS": 28860,
+		"oA": 0,
+		"oAP": "\/img\/wine-no-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/js\/jquery.scrolly.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/jquery.scrolly-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/scripts-ck.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/min\/scripts-ck-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts-ck.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scripts-ck-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scripts-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/languages\/de_DE.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/de_DE.mo",
+		"oF": 0
+		},
+	"\/languages\/de_DE.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/de_DE.po",
+		"oF": 0
+		},
+	"\/languages\/es_ES.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/es_ES.mo",
+		"oF": 0
+		},
+	"\/languages\/es_ES.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/es_ES.po",
+		"oF": 0
+		},
+	"\/languages\/fr_FR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/fr_FR.mo",
+		"oF": 0
+		},
+	"\/languages\/fr_FR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/fr_FR.po",
+		"oF": 0
+		},
+	"\/languages\/HTML5Blank.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/HTML5Blank.pot",
+		"oF": 0
+		},
+	"\/languages\/it_IT.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/it_IT.mo",
+		"oF": 0
+		},
+	"\/languages\/it_IT.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/it_IT.po",
+		"oF": 0
+		},
+	"\/languages\/nl_NL.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/nl_NL.mo",
+		"oF": 0
+		},
+	"\/languages\/nl_NL.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/nl_NL.po",
+		"oF": 0
+		},
+	"\/languages\/pt_BR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/pt_BR.mo",
+		"oF": 0
+		},
+	"\/languages\/pt_BR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/pt_BR.po",
+		"oF": 0
+		},
+	"\/languages\/ro_RO.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/ro_RO.mo",
+		"oF": 0
+		},
+	"\/languages\/ro_RO.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/languages\/ro_RO.po",
+		"oF": 0
+		},
+	"\/LICENSE.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/LICENSE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/loop.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/loop.php",
+		"oF": 0
+		},
+	"\/normalize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/normalize-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/normalize.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/normalize.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/page-contact.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-contact.php",
+		"oF": 0
+		},
+	"\/page-current-menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-current-menu.php",
+		"oF": 0
+		},
+	"\/page-dianes-treasures.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-dianes-treasures.php",
+		"oF": 0
+		},
+	"\/page-events.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-events.php",
+		"oF": 0
+		},
+	"\/page-for-brands.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-for-brands.php",
+		"oF": 0
+		},
+	"\/page-homepage.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-homepage.php",
+		"oF": 0
+		},
+	"\/page-plan-your-event.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-plan-your-event.php",
+		"oF": 0
+		},
+	"\/page-press.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-press.php",
+		"oF": 0
+		},
+	"\/page-reserves.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-reserves.php",
+		"oF": 0
+		},
+	"\/page-tasting-room-bistro.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-tasting-room-bistro.php",
+		"oF": 0
+		},
+	"\/page-tasting-room.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-tasting-room.php",
+		"oF": 0
+		},
+	"\/page-wine-club-old.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-wine-club-old.php",
+		"oF": 0
+		},
+	"\/page-wine-club.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-wine-club.php",
+		"oF": 0
+		},
+	"\/page-with-lower-content.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-with-lower-content.php",
+		"oF": 0
+		},
+	"\/page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page.php",
+		"oF": 0
+		},
+	"\/pagination.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/pagination.php",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/screenshot.png": {
+		"ft": 32768,
+		"iS": 124539,
+		"oA": 0,
+		"oAP": "\/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/scss\/404.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/404.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_comments.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_comments.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_contact-seven.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_contact-seven.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_events.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_events.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_homepage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_homepage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_myslider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_myslider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_plan-events.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_plan-events.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_press.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_press.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_single.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_single.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_skeleton.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_skeleton.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_trade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_trade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_wine-club.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_wine-club.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_wines.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_wines.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/ie.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ie.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/print.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/print.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/screen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/screen.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/search.php",
+		"oF": 0
+		},
+	"\/searchform.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/searchform.php",
+		"oF": 0
+		},
+	"\/sidebar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
+	"\/single-ai1ec_event.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single-ai1ec_event.php",
+		"oF": 0
+		},
+	"\/single.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single.php",
+		"oF": 0
+		},
+	"\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/tag.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tag.php",
+		"oF": 0
+		},
+	"\/trade-media.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trade-media.php",
+		"oF": 0
+		},
+	"\/wines-logic.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wines-logic.php",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 507173446,
+	"displayValue": "naggiar",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-cryingJordan"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/naggiarvineyards.dev:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

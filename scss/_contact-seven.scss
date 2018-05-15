@@ -1,0 +1,58 @@
+//Contact 7 Plugin
+
+.wpcf7 {
+	.submit-button {
+		border-top: 1px solid $gray;
+		border-bottom: 1px solid $gray;
+		display: inline-block;
+		float: right;
+		overflow: hidden;
+	}
+	input {@include crimson(normal);
+		font-size: 16px;
+		&.wpcf7-text {
+			background: none;
+			border: none;
+			border-bottom: 1px solid $gold;
+			color: darken($gold, 20%);
+			display: block;
+			padding: 5px 0;
+			width: 100%;
+		}
+		&.wpcf7-submit {
+			background: $gold;
+			border: none;
+			color: white;
+			display: inline-block;
+			font-size: 20px;
+			padding: 8px 60px;
+			text-transform: uppercase;
+			width: 100%;
+		}
+	}
+	img.ajax-loader {display: none;}
+	textarea {
+		@include crimson(normal);
+		background: none;
+		border: 1px solid $gold;
+		color: darken($gold, 20%);
+		display: block;
+		font-size: 16px;
+		padding: 10px;
+		width: 100%;
+	}
+	//errors
+	.wpcf7-not-valid-tip {color: $red;}
+	.wpcf7-response-output {
+			border: 2px solid $gold;
+		    clear: both;
+		    color: black;
+		    float: left;
+		    background: none;
+		    line-height: 2em;
+		    -moz-border-radius:3px;
+		    -webkit-border-radius:3px;
+		    border-radius:3px;
+		    text-align: left;
+		}
+}

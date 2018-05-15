@@ -1,0 +1,272 @@
+
+
+.wrapper {
+	background: url(../img/bg/content.jpg);
+	overflow: hidden;
+}
+
+//Make older browsers user main properly by adding display block
+main {
+display: block; 
+margin: 0 auto;
+max-width: 960px;
+}
+
+main[role=home] {
+max-width: 990px;
+}
+
+main[role=results] {
+	padding: $gutter 0;
+}
+//apply clearfix to all sections
+
+main:before,
+main:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+main:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+main {
+    *zoom: 1;
+}
+
+section {
+	color: $text;
+	line-height: 1.3em;
+	margin-bottom: ($gutter * 2);
+	a.post-edit-link {display: none;} //Hide all post edit links
+	&.white {
+		border-top: 10px solid $gold;
+		background: white url('../img/bg/distressed-white.jpg');
+	}
+	article {
+		text-align: left;
+		//Default Styles move some of these to fonts?
+		h1, h2, h3, h4 {
+			margin: 10px 0 15px 0;
+		}
+		b, strong {
+			font-weight: 700;
+		}
+		a {color: $red;}
+		em {
+			font-style: italic;
+		}
+		ul {
+			margin: 10px $gutter;
+			li {
+				list-style: circle;
+				margin-bottom: 10px;
+			}
+		}
+
+		.button {
+			background: $gold;
+			border: none;
+			color: white;
+			clear: left;
+			display: inline-block;
+			font-size: 20px;
+			padding: 8px 60px;
+			text-transform: uppercase;
+		}
+
+		img {
+			&.alignright {
+				clear: right;
+				float: right;
+				margin: 5px 0 5px 10px;
+			}
+			&.alignleft {
+				clear: left;
+				float: left;
+				margin: 5px 10px 5px 0;
+			}
+			&.aligncenter {
+				max-width: 100%;
+				width: 100%;
+			}
+		}
+	}
+}
+
+//With Left Sidebar
+section.wleftsidebar {
+	border-left: 1px solid $gray;
+	float: left;
+	width: 81.25%;
+	img.wp-post-image {
+		border-top: 1px solid $gray;
+		margin: 50px 0 0 0;
+		padding: 5px 0 0 5px;
+	}
+	article {
+		padding: 35px 0 35px 55px;
+		&.linebreak {
+			border-top: 1px solid $gray;
+		}
+		h1 {
+			line-height: 1em;
+			margin-bottom: 15px;
+		}
+		blockquote {
+			@include crimson(italic);
+			font-size: 24px;
+			line-height: 1.1em;
+			margin: 0 0 30px 0;
+		}
+	}
+}
+
+//With Right Sidebar
+section.wrightsidebar {
+	border-right: 1px solid $gray;
+	float: left;
+	width: 75%;
+	&.contact {border: none;}
+	h1 {
+		border: none;
+		line-height: 1em;
+		margin: 70px 0 0 0;
+		padding: 0 0 30px 0;
+	}
+	article {
+		border-bottom: 1px solid $gray;
+		overflow: hidden;
+		margin: 0 ($gutter * 2) 30px 0;
+		padding: $gutter 0;
+		text-align: left;
+		h2 {
+			font-size: 35px;
+			margin: 0 0 5px 0;
+			text-transform: uppercase;
+			a {color: $gold;}
+		}
+		img.wp-post-image {
+			border: 5px solid white;
+			float: left;
+			margin-right: 35px;
+		}
+		.meta {
+			display: block;
+			font-weight: 700;
+			margin: 0 0 5px 0;
+		}
+
+		#ssba {
+			margin-top: 20px;
+			float: right;
+			a {
+				margin-left: 5px;
+			}
+		}
+		blockquote {
+			@include crimson(italic);
+			font-size: 24px;
+			line-height: 1.1em;
+			margin: 0 0 30px 0;
+		}
+	}
+}
+
+//Tasting Room Hours
+
+.tasting-hours {
+	background: url('../img/bg/ice_age.png');
+	border-top: 4px solid $gold;
+	overflow: hidden;
+	.hours {
+		padding: 20px;
+		text-align: left;
+		p {margin: 0;}
+		strong {
+			display: inline-block;
+			font-size: 25px;
+			padding-top: 25px;
+		}
+	}
+	img {
+		float: left;
+		padding: 0 5px 5px 0;
+		width: 33.33%;
+		&.last-row {padding: 0 5px 0 0;}
+	}
+}
+
+//Dianes Treasures
+
+.treasures {
+	a {
+		display: block;
+		padding: 5px;
+		
+	}
+}
+
+//Responsive Video Code
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+   
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+//Responsive
+@include breakpoint(worker) {
+	
+	.tasting-hours {
+		border: none;
+		img, img.last-row {padding: 0;}
+		.hours {
+			strong {
+				font-size: 18px;
+				padding-top: 10px;
+			}
+		}
+	}
+	
+	section.wleftsidebar {
+		width: 100%;
+		img.wp-post-image {
+			margin: 0;
+			padding: 0;
+		}
+		article {
+			padding: $gutter;
+		}
+	}
+	section.wrightsidebar {
+		width: 100%;
+		.pagination {
+			margin: $gutter;
+		}
+		article {
+			margin: 0 $gutter;
+			img.wp-post-image {
+				float: left;
+				margin-bottom: 10px;
+				max-width: 100%;
+				width: 100%;
+			}
+		}
+	}
+}

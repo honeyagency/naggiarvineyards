@@ -1,0 +1,62 @@
+.myslider {
+	overflow: hidden;
+	height: 0;
+	position: relative;
+	width: 100%;
+	.visit {
+		background: url('../img/headers/visit-overlay.png');
+		display: block;
+		height: 247px;
+		left: -500px;
+		margin: -148px 0 0 0;
+		position: absolute;
+		text-indent: -9999px;
+		top: 50%;
+		width: 457px;
+		z-index: 5000;
+	}
+	.slideshow {
+
+	}
+	.slideshow > div { 
+		bottom: 0;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		position: absolute;
+		max-width: 100%;
+		width: 100%;
+	}
+	.more {
+		bottom: 0;
+		border-collapse: collapse;
+		display: table;
+		height: 46px;
+		position: absolute;
+		width: 100%;
+		.cell {
+			background: url('../img/bg/content.jpg') bottom; //background does not seamlessly match
+			display: table-cell;
+			&:after {
+				content: ' '; //Fill empty div
+			}
+			&.center {
+				background: url('../img/headers/myslide-more.png') no-repeat center center;
+				text-indent: -9999px;
+				width: 116px;
+			}
+		}
+	}	
+}
+@include breakpoint(worker) {
+	.myslider {
+		height: 400px;
+		.visit {display: none;}
+		.slide[style] {
+			background-attachment: scroll!important;
+			background-position: top!important;
+
+		}
+	}
+}

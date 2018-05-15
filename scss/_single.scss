@@ -1,0 +1,59 @@
+body.single {
+	section {
+		a.back-button {
+			float: left;
+			text-transform: uppercase;
+			margin-left: 20px;
+		}
+		h1 {
+			a {color: $red;}
+			border-bottom: 1px solid $gray;
+			margin-bottom: $gutter;
+			padding: 0 0 10px 0;
+		}
+		h2 {
+			color: $gold;
+		}
+		.meta {
+			margin-bottom: $gutter;
+		}
+		.feature {
+			overflow: hidden;
+			margin: 0 0 $gutter 0;
+			width: 100%;
+			img.wp-post-image {
+				display: block;
+				margin: 0 auto;
+				float: none;
+			}
+		}
+	}
+}
+
+.jetpack_subscription_widget {
+	clear: both;
+	overflow: hidden;
+	h2 {
+		padding-top: $gutter;
+	}
+	#subscribe-field {
+		background: none;
+		border: none;
+		border-bottom: 1px solid $gold;
+		color: darken($gold, 20%);
+		display: block;
+		padding: 5px 0;
+		width: 100%;
+	}
+	input[type="submit"] {
+		background: $gold;
+		border: none;
+		color: white;
+		display: inline-block;
+		float: right;
+		font-size: 15px;
+		padding: 8px 60px;
+		text-transform: uppercase;
+		width: auto!important;
+	}
+}

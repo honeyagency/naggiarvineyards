@@ -1,0 +1,50 @@
+//CONTACT
+
+//No webkit global
+input {
+	-webkit-appearance: none;
+    border-radius: 0;
+}
+
+body.contact {
+	.contact-map {
+		border-bottom: 1px solid $gray;
+		height: 430px;
+		position: relative;
+		.interact {
+			@include border-radius(10px);
+				background: white url('../img/magnify.png') no-repeat center center;
+				content: "";
+				display: block;
+				height: 100px;
+				left: 50%;
+				margin: -50px 0 0 -50px;
+				opacity: 0;
+				position: absolute;
+				top: 50%;
+				width: 100px;
+				z-index: 6000;
+				transition: opacity .25s ease-in-out;
+   				-moz-transition: opacity .25s ease-in-out;
+   				-webkit-transition: opacity .25s ease-in-out;
+			}
+		&:hover .interact {
+			opacity: .8!important;
+		}	
+		.shadow {
+			@include box-shadow($gray 0 0 20px inset);
+			bottom: 0;
+			content: "";
+			left: 0;
+			right: 0;
+			position: absolute;
+			top: 0;
+			z-index: 5000;
+		}
+		#map_canvas {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}

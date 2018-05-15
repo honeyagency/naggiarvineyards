@@ -1,0 +1,21 @@
+//BLOG
+
+main.blog {
+	h1 {
+		text-align: center;
+	}
+	img.wp-post-image {
+		width: 245px;
+	}
+	article {
+		position: relative;
+		p {margin-bottom: 30px;}
+
+	}
+	#ssba {
+		display: block;
+		position: absolute;
+		bottom: 5px;
+		right: 0;
+	}
+}

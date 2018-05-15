@@ -1,0 +1,23 @@
+//Comment Form
+.comment-form {
+	margin-top: $gutter;
+	label {
+		display: block;
+	}
+	input, textarea {
+		border: 1px solid $gray;
+		padding: 5px;
+		width: 100%;
+	}
+	.form-submit input {
+		background: $gold;
+		border: none;
+		color: white;
+		display: inline-block;
+		float: right;
+		font-size: 15px;
+		padding: 8px 60px;
+		text-transform: uppercase;
+		width: auto!important;
+	}
+}
